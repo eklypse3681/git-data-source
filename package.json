@@ -47,16 +47,16 @@
     "version-control",
     "code-analysis"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "eklypse3681",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/git-data-source.git"
+    "url": "https://github.com/eklypse3681/git-data-source.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/git-data-source/issues"
+    "url": "https://github.com/eklypse3681/git-data-source/issues"
   },
-  "homepage": "https://github.com/yourusername/git-data-source#readme",
+  "homepage": "https://github.com/eklypse3681/git-data-source#readme",
   "engines": {
     "node": ">=18.0.0"
   },

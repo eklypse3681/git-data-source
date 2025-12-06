@@ -484,7 +484,7 @@ Contributions are welcome! Please read our [contributing guidelines](./CONTRIBUT
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/git-data-source.git
+git clone https://github.com/eklypse3681/git-data-source.git
 cd git-data-source
 
 # Install dependencies
@@ -508,9 +508,9 @@ See [LICENSE](./LICENSE) for details.
 
 ## Support
 
-- [GitHub Issues](https://github.com/yourusername/git-data-source/issues)
+- [GitHub Issues](https://github.com/eklypse3681/git-data-source/issues)
 - [Documentation](./docs/README.md)
-- [Discussions](https://github.com/yourusername/git-data-source/discussions)
+- [Discussions](https://github.com/eklypse3681/git-data-source/discussions)
 
 ## Related Projects
 
@@ -518,10 +518,3 @@ See [LICENSE](./LICENSE) for details.
 - [octokit.js](https://github.com/octokit/octokit.js) - GitHub REST API client
 - [simple-git](https://github.com/steveukx/git-js) - Git command wrapper
 
----
-
-**Note:** Before publishing, update the following in `package.json`:
-- `author` field with your name and email
-- `repository.url` with your GitHub repository URL
-- `bugs.url` with your issues URL
-- `homepage` with your repository homepage
