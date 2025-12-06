@@ -1,0 +1,51 @@
+# Source files
+src/
+tests/
+docs/
+
+# Configuration files
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc.js
+.prettierrc
+
+# Development files
+*.test.ts
+*.spec.ts
+*.map
+
+# Build artifacts
+coverage/
+.vitest/
+*.log
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Environment
+.env
+.env.local
+.env.test
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.md
+!README.md

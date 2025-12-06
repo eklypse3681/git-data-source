@@ -1,0 +1,80 @@
+{
+  "name": "git-data-source",
+  "version": "0.1.0",
+  "description": "Fluent TypeScript library for accessing Git repositories as data sources with GitHub integration",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run test && npm run build",
+    "clean": "rm -rf dist",
+    "demo": "npx ts-node --project tsconfig.demo.json demo/run-demo.ts",
+    "demo:interactive": "npx ts-node --project tsconfig.demo.json demo/index.ts"
+  },
+  "keywords": [
+    "git",
+    "data-source",
+    "github",
+    "isomorphic-git",
+    "fluent-api",
+    "typescript",
+    "repository",
+    "octokit",
+    "version-control",
+    "code-analysis"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/git-data-source.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/git-data-source/issues"
+  },
+  "homepage": "https://github.com/yourusername/git-data-source#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitest/coverage-v8": "^1.0.4",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "@octokit/types": "^12.4.0",
+    "isomorphic-git": "^1.25.0",
+    "minimatch": "^9.0.3"
+  }
+}
